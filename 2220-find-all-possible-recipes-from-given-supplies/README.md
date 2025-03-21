@@ -49,3 +49,80 @@ We can create &quot;burger&quot; since we have the ingredient &quot;meat&quot; a
 	<li>All the values of <code>recipes</code> and <code>supplies</code>&nbsp;combined are unique.</li>
 	<li>Each <code>ingredients[i]</code> does not contain any duplicate values.</li>
 </ul>
+
+
+
+# Recipe Creation using Topological Sorting (Kahn's Algorithm)
+
+<h2><a href="https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies">2220. Find All Possible Recipes from Given Supplies</a></h2>
+<h3>Medium</h3>
+<hr>
+<p>You have information about <code>n</code> different recipes. You are given a string array <code>recipes</code> and a 2D string array <code>ingredients</code>. The <code>i<sup>th</sup></code> recipe has the name <code>recipes[i]</code>, and you can <strong>create</strong> it if you have <strong>all</strong> the needed ingredients from <code>ingredients[i]</code>. A recipe can also be an ingredient for <strong>other </strong>recipes, i.e., <code>ingredients[i]</code> may contain a string that is in <code>recipes</code>.</p>
+
+## Optimal Approach: Topological Sorting (Kahn's Algorithm)
+This problem can be solved using **Topological Sorting (BFS)** since it forms a **Directed Acyclic Graph (DAG)** where:
+
+- **Nodes** are recipes and ingredients.
+- **Edges** represent dependencies (an ingredient → recipe that requires it).
+
+### Steps to Solve:
+
+### 1. **Build a Graph**
+```cpp
+unordered_map<string, int> inDegree;
+unordered_map<string, vector<string>> graph;
+for (int i = 0; i < recipes.size(); i++) {
+    inDegree[recipes[i]] = ingredients[i].size();
+    for (const string& ing : ingredients[i]) {
+        graph[ing].push_back(recipes[i]);
+    }
+}
+```
+   - Each `recipe[i]` is a **node**.
+   - Each ingredient required by `recipe[i]` forms a **directed edge** toward `recipe[i]`.
+   - Maintain an `inDegree` count for each recipe, which represents the number of ingredients that are **not yet available**.
+
+### 2. **Initialize Processing Queue**
+```cpp
+queue<string> q;
+unordered_set<string> available(supplies.begin(), supplies.end());
+for (const string& item : supplies) {
+    q.push(item);
+}
+```
+   - Add all `supplies` to a queue since they are already available.
+   - Track available ingredients in a **set**.
+
+### 3. **Process Recipes using BFS**
+```cpp
+vector<string> result;
+while (!q.empty()) {
+    string item = q.front();
+    q.pop();
+    
+    if (inDegree.find(item) != inDegree.end()) {
+        result.push_back(item);
+    }
+    
+    for (const string& recipe : graph[item]) {
+        if (--inDegree[recipe] == 0) {
+            q.push(recipe);
+        }
+    }
+}
+```
+   - While the queue is not empty:
+     - Take an ingredient from the queue.
+     - Reduce the `inDegree` of all recipes that depend on this ingredient.
+     - If `inDegree[recipe]` becomes `0`, add it to the queue (all required ingredients are available).
+   - Keep track of all successfully created recipes.
+
+### Time Complexity Analysis:
+```cpp
+// Building Graph: O(N + M)
+// Processing Queue (BFS): O(N + M)
+// Overall Complexity: O(N + M)
+// N = Number of recipes
+// M = Total number of ingredients
+```
+This ensures efficient execution for constraints `N, M ≤ 100`.
