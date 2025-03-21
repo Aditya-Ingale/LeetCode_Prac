@@ -50,15 +50,6 @@ We can create &quot;burger&quot; since we have the ingredient &quot;meat&quot; a
 	<li>Each <code>ingredients[i]</code> does not contain any duplicate values.</li>
 </ul>
 
-
-
-# Recipe Creation using Topological Sorting (Kahn's Algorithm)
-
-<h2><a href="https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies">2220. Find All Possible Recipes from Given Supplies</a></h2>
-<h3>Medium</h3>
-<hr>
-<p>You have information about <code>n</code> different recipes. You are given a string array <code>recipes</code> and a 2D string array <code>ingredients</code>. The <code>i<sup>th</sup></code> recipe has the name <code>recipes[i]</code>, and you can <strong>create</strong> it if you have <strong>all</strong> the needed ingredients from <code>ingredients[i]</code>. A recipe can also be an ingredient for <strong>other </strong>recipes, i.e., <code>ingredients[i]</code> may contain a string that is in <code>recipes</code>.</p>
-
 ## Optimal Approach: Topological Sorting (Kahn's Algorithm)
 This problem can be solved using **Topological Sorting (BFS)** since it forms a **Directed Acyclic Graph (DAG)** where:
 
