@@ -50,6 +50,10 @@ We can create &quot;burger&quot; since we have the ingredient &quot;meat&quot; a
 	<li>Each <code>ingredients[i]</code> does not contain any duplicate values.</li>
 </ul>
 
+
+# Solution
+
+
 ## Optimal Approach: Topological Sorting (Kahn's Algorithm)
 This problem can be solved using **Topological Sorting (BFS)** since it forms a **Directed Acyclic Graph (DAG)** where:
 
