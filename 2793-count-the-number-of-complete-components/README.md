@@ -38,3 +38,106 @@
 	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
 	<li>There are no repeated edges.</li>
 </ul>
+
+
+# Solution
+# Counting Complete Connected Components in an Undirected Graph
+
+## Problem Statement
+
+You are given an **undirected graph** with `n` vertices, numbered from `0` to `n - 1`. You are also given a **2D integer array** `edges`, where `edges[i] = [a_i, b_i]` denotes an **undirected edge** connecting vertices `a_i` and `b_i`.
+
+A **connected component** is a subgraph where:
+- There exists a **path** between every pair of vertices within that component.
+- No vertex of the component shares an edge with a vertex outside the component.
+
+A connected component is **complete** if there exists an **edge between every pair** of its vertices.
+
+### Example 1
+#### **Input:**
+```cpp
+n = 6
+edges = {{0,1}, {0,2}, {1,2}, {3,4}}
+```
+#### **Graph Representation:**
+```
+Component 1: 0 - 1 - 2 (Complete)
+Component 2: 3 - 4 (Complete)
+Component 3: 5 (Single node, Complete)
+```
+#### **Output:**
+```cpp
+3
+```
+
+### Example 2
+#### **Input:**
+```cpp
+n = 6
+edges = {{0,1}, {0,2}, {1,2}, {3,4}, {3,5}}
+```
+#### **Graph Representation:**
+```
+Component 1: 0 - 1 - 2 (Complete)
+Component 2: 3 - 4 - 5 (Not Complete, missing 4-5 edge)
+Component 3: 6 (Single node, Complete)
+```
+#### **Output:**
+```cpp
+1
+```
+
+---
+
+## **Approach: Disjoint Set Union (DSU)**
+To efficiently find connected components and determine if they are **complete**, we use **Disjoint Set Union (DSU) with Path Compression and Union by Rank**.
+
+### **Data Structures Used**
+- `par[i]`: Stores the **parent (representative)** of each node.
+- `rank[i]`: Helps with **Union by Rank** to keep the tree balanced.
+- `count[i]`: Stores the **size** of each connected component.
+- `edge[i]`: Tracks the **number of edges** within each component.
+
+### **Algorithm Steps**
+1. **Initialize DSU**:
+   - Each node is its own **parent**.
+   - Set **count = 1** (each node is its own component initially).
+   - Set **edge = 0** (no edges initially).
+
+2. **Process Each Edge**:
+   - Use **Find Parent (Path Compression)** to get root parent.
+   - Use **Union by Rank** to merge components.
+   - Update `count` and `edge` accordingly.
+
+3. **Count Complete Components**:
+   - A **component is complete** if it contains exactly `count * (count - 1) / 2` edges (fully connected graph formula).
+   - Iterate over **parent nodes** and count how many satisfy this condition.
+
+---
+
+## **Time Complexity Analysis**
+- **Find Parent (Path Compression)**: `O(α(n))` (near constant time)
+- **Union by Rank**: `O(α(n))`
+- **Processing `m` edges**: `O(m α(n))`
+- **Final component check**: `O(n)`
+- **Overall Complexity**: `O(n + m)` (Efficient for `n ≤ 50`)
+
+---
+
+## **Edge Cases Considered**
+✅ **No edges (`edges = []`)**: Each node is its own complete component.
+✅ **All nodes connected (clique)**: Should return `1`.
+✅ **Multiple disconnected components**.
+✅ **Graph with isolated nodes**.
+
+---
+
+## **Summary**
+✅ **Efficiently finds connected components** using DSU.  
+✅ **Uses Union by Rank & Path Compression** for optimization.  
+✅ **Correctly checks for complete components** using edge count formula.  
+✅ **Handles all edge cases optimally**.  
+
+This **DSU-based approach** provides an optimal solution for counting **complete connected components** in an **undirected graph**. 🚀
+
+
