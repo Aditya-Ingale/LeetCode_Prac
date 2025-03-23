@@ -39,3 +39,43 @@ The four ways to get there in 7 minutes are:
 	<li>There is at most one road connecting any two intersections.</li>
 	<li>You can reach any intersection from any other intersection.</li>
 </ul>
+
+
+# Solution
+# 🚀 Shortest Path Count - Dijkstra's Algorithm  
+
+This program finds the **number of ways** to travel from intersection `0` to intersection `n-1` in the **shortest possible time** using **Dijkstra's Algorithm**.  
+
+---
+
+## 📌 Problem Understanding  
+- You are given a city with `n` intersections (`0` to `n-1`).  
+- Some intersections are connected by **roads**, each with a given **time** to travel.  
+- You need to find **how many ways** you can reach `n-1` from `0` in the **fastest time**.  
+- The answer should be returned **modulo** `10^9 + 7` (to handle large numbers).  
+
+---
+
+## 🔹 Approach (Beginner-Friendly Explanation)  
+We solve this problem using **Dijkstra's Algorithm** with an extra step to count the number of shortest paths.
+
+### 1️⃣ **Build the Road Network (Graph)**
+- Convert the given `roads` into an **adjacency list**, which stores:
+  - The neighbor intersection.
+  - The time taken to reach it.
+
+### 2️⃣ **Use Dijkstra’s Algorithm**
+- Use a **priority queue (min-heap)** to always pick the intersection with the **smallest travel time**.  
+- Maintain two arrays:
+  1. `dist[i]` → **Shortest time** to reach intersection `i`.
+  2. `ways[i]` → **Number of ways** to reach intersection `i` in the shortest time.
+
+### 3️⃣ **Process Each Intersection**
+- For each neighbor:
+  - If a **new shorter path** is found, update `dist` and **reset** `ways`.
+  - If another **equal shortest path** is found, **add** the ways.
+
+### 4️⃣ **Return the Answer**
+- The value of `ways[n-1]` gives the **number of ways** to reach the last intersection (`n-1`) in the **fastest time**.
+
+---
