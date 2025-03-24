@@ -50,3 +50,52 @@
 	<li><code>meetings[i].length == 2</code></li>
 	<li><code><font face="monospace">1 &lt;= meetings[i][0] &lt;= meetings[i][1] &lt;= days</font></code></li>
 </ul>
+
+# Solution
+
+# Count Available Work Days
+
+### 1. Sort Meetings
+- Sort the `meetings` array by the starting day.
+
+### 2. Merge Overlapping Intervals
+- Use a variable `lastEnd` to track the last occupied day.
+- Iterate through the sorted `meetings` and check if there are gaps between consecutive meetings.
+
+### 3. Count Free Days
+- If there is a gap between `lastEnd` and the next meeting, count those days as free.
+- If there are free days after the last meeting until `days`, count those too.
+
+---
+
+---
+
+## Time Complexity Analysis
+- **Sorting the meetings**: \(O(n \log n)\)
+- **Iterating through meetings**: \(O(n)\)
+- **Total Complexity**: \(O(n \log n)\), which is efficient for large inputs.
+
+---
+
+## Edge Cases Considered
+✅ All days are occupied (`meetings = [[1, days]]`).
+
+✅ No meetings at all (`meetings = []`).
+
+✅ Meetings with full overlap (`meetings = [[1,3], [2,4], [3,5]]`).
+
+✅ Meetings with gaps (`meetings = [[1,2], [4,5], [7,8]]`).
+
+---
+
+## Alternative Approaches
+### 1. Using a Set (Inefficient for large `days`)
+- Store occupied days in a `set<int>` and count the remaining ones.
+- **Drawback:** If `days` is large (e.g., \(10^9\)), it requires too much memory.
+
+### 2. Using a Boolean Array (Only for small `days` values)
+- Mark occupied days in an array and count unmarked days.
+- **Drawback:** Not feasible for large `days`.
+
+This implementation is optimized for large constraints. 🚀
+
