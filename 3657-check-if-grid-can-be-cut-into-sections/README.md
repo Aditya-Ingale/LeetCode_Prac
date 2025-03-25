@@ -65,3 +65,35 @@
 	<li><code>0 &lt;= rectangles[i][1] &lt; rectangles[i][3] &lt;= n</code></li>
 	<li>No two rectangles overlap.</li>
 </ul>
+
+# Solution
+
+### **Step 1: Extract Intervals for x and y Axes**
+Since the problem involves checking for possible cuts along either the x-axis or y-axis, we first extract the start and end points of each rectangle along both axes.
+- Store x-intervals `(startX, endX)` in a list `xs`.
+- Store y-intervals `(startY, endY)` in a list `ys`.
+
+### **Step 2: Count Merged Intervals**
+To determine how many distinct segments exist along each axis:
+1. **Sort the intervals** in ascending order.
+2. **Merge overlapping intervals** to count distinct segments.
+3. If the number of distinct segments in either `xs` or `ys` is **at least 3**, return `true`, otherwise return `false`.
+
+### **Step 3: Implementation Details**
+- **Sorting ensures efficient merging**, which is crucial given the constraint `rectangles.length ≤ 10^5`.
+- **Greedy approach**: Iterate over sorted intervals and track the count of disjoint segments.
+- **Final check**: If either horizontal (`ys`) or vertical (`xs`) cuts result in at least three distinct sections, we return `true`.
+
+## Complexity Analysis
+- **Sorting the intervals**: `O(n log n)`
+- **Merging and counting segments**: `O(n)`
+- **Overall time complexity**: `O(n log n)`
+
+## Edge Cases Considered
+- Rectangles that fully overlap.
+- Non-overlapping rectangles.
+- Rectangles that form exactly three merged segments.
+- Cases where making two cuts is impossible.
+
+This approach ensures an optimal and efficient solution to the problem while handling large inputs effectively.
+
