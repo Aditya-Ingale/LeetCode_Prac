@@ -43,3 +43,58 @@ A total of 4 operations were used.
 	<li><code>1 &lt;= m * n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= x, grid[i][j] &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+# Solution
+
+## Optimized Approach
+1. **Flatten the Grid:** Convert the 2D grid into a 1D array.
+2. **Find the Median Efficiently:** Instead of sorting, use `nth_element` to get the median in `O(n)` time.
+3. **Check Feasibility:** If any difference `(num - median)` is not divisible by `x`, return `-1`.
+4. **Calculate Operations:** Sum up `(abs(num - median) / x)` for all elements.
+
+### Complexity Analysis
+- **Flattening the Grid:** `O(m * n)`
+- **Finding the Median:** `O(m * n)` (using `nth_element` instead of sorting)
+- **Computing Operations:** `O(m * n)`
+
+**Overall Complexity:** `O(m * n)`, which is more efficient than the previous `O(m * n log(m * n))` approach.
+
+## Example Walkthrough
+### Example 1
+#### Input:
+```cpp
+grid = [[2,4],[6,8]], x = 2
+```
+#### Output:
+```
+4
+```
+#### Explanation:
+Operations to make all elements `4`:
+- Add `x` to `2` once.
+- Subtract `x` from `6` once.
+- Subtract `x` from `8` twice.
+
+### Example 2
+#### Input:
+```cpp
+grid = [[1,5],[2,3]], x = 1
+```
+#### Output:
+```
+5
+```
+#### Explanation:
+Operations to make all elements `3`.
+
+### Example 3
+#### Input:
+```cpp
+grid = [[1,2],[3,4]], x = 2
+```
+#### Output:
+```
+-1
+```
+#### Explanation:
+Cannot make all elements equal as the differences are not multiples of `x`. 
