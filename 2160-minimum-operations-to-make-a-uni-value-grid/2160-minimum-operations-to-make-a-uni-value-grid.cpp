@@ -8,11 +8,12 @@ public:
             }
         }
         
-        sort(arr.begin(), arr.end());
         int n = arr.size();
-        int median = arr[n / 2];
-        int operations = 0;
+        int median;
+        nth_element(arr.begin(), arr.begin() + n / 2, arr.end());
+        median = arr[n / 2];
         
+        int operations = 0;
         for (int num : arr) {
             int diff = abs(num - median);
             if (diff % x != 0) return -1; 
