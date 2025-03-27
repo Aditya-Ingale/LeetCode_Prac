@@ -52,3 +52,63 @@ It can be shown that index 4 is the minimum index of a valid split.</pre>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>nums</code> has exactly one dominant element.</li>
 </ul>
+
+
+# Solution
+
+## Approach
+
+### Step 1: Find the Dominant Element
+Since we are given that the array has exactly one dominant element, we can determine it using a frequency count.
+
+- Use a hash map (`unordered_map`) to count the occurrences of each number.
+- The dominant element must appear more than `n/2` times.
+
+#### Example:
+```cpp
+nums = [2,1,3,1,1,1,7,1,2,1]
+```
+
+#### Frequency count:
+```text
+1 → 5 times
+2 → 2 times
+3 → 1 time
+7 → 1 time
+```
+Since `1` appears more than `n/2 = 5` times, `1` is the dominant element.
+
+---
+
+### Step 2: Find the Minimum Valid Split
+Now, we traverse `nums` and maintain:
+
+- **Left side count (`leftCount`)** → Number of times the dominant element appears in the first part.
+- **Right side count (`rightCount`)** → Number of times the dominant element appears in the second part.
+
+At each index `i`, we check:
+
+- If `leftCount * 2 > (i + 1)`, the left part is valid.
+- If `rightCount * 2 > (n - i - 1)`, the right part is valid.
+- If both conditions are met, return `i` as the minimum valid split.
+
+#### Example Walkthrough:
+For `nums = [2,1,3,1,1,1,7,1,2,1]`
+
+| Index | Left Count | Right Count | Valid Split? |
+|--------|------------|-------------|--------------|
+| 0      | 0          | 5           | No           |
+| 1      | 1          | 4           | No           |
+| 2      | 1          | 4           | No           |
+| 3      | 2          | 3           | No           |
+| 4      | 3          | 2           | Yes (return 4) |
+
+Thus, the minimum valid split is at index **4**.
+
+---
+
+## Complexity Analysis
+
+- **Finding the dominant element** → `O(n)` (Using a hash map for frequency count).
+- **Finding the minimum valid split** → `O(n)` (Single pass through `nums`).
+- **Total Complexity** → `O(n)` (Efficient for `n` up to `10^5`).
