@@ -39,3 +39,64 @@
 	<li><code>1 &lt;= k &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= grid[i][j], queries[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+# Solution
+
+## Optimized Approach
+### 1. **Sorting Queries**
+Instead of handling queries in order, we first **sort** them. This allows us to process them in increasing order efficiently.
+
+### 2. **Priority Queue (Min-Heap)**
+We use a **min-heap (priority queue)** to always process the smallest cell value first. The heap stores pairs of `{cell_value, position}`.
+
+### 3. **Processing Queries Efficiently**
+For each query:
+- We pop cells from the heap **as long as their value is less than the query**.
+- Every time we pop a cell, we count it and mark it as visited.
+- We push all its **unvisited neighbors** into the heap.
+- When the heap's top cell is **greater than or equal** to the query, we stop processing.
+- The current count is stored as the answer for this query.
+
+### 4. **Storing Results Efficiently**
+Since queries are sorted, we store results in an array and reorder them back to their original positions after processing.
+
+## Time Complexity
+- **Sorting queries**: `O(k log k)`
+- **Heap operations**: `O(m * n log (m * n))` in total, since each cell is pushed into the heap at most once.
+- **Final complexity**: `O((m * n + k) log (m * n))`
+
+## Example Walkthrough
+### Input:
+```cpp
+grid = [[1,2,3],
+        [2,5,7],
+        [3,5,1]]
+queries = [5,6,2]
+```
+
+### Sorted Queries:
+`[2, 5, 6]` (process in this order and store original positions)
+
+### Processing Each Query:
+1. **Query = 2**
+   - Start at `(0,0)`, value `1 < 2`, collect `1` point.
+   - Cannot move further, **Result = 1**.
+
+2. **Query = 5**
+   - Start again at `(0,0)`, process all cells with value `< 5`.
+   - Collect `5` points before hitting `5`.
+   - **Result = 5**.
+
+3. **Query = 6**
+   - Continue from previous state.
+   - Process all new cells with value `< 6`.
+   - Collect `8` points.
+   - **Result = 8**.
+
+### Final Output:
+```cpp
+[5, 8, 1]
+```
+
+This method efficiently processes large grids and multiple queries in a scalable way.
+
