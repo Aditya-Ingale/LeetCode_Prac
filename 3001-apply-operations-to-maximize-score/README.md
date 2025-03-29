@@ -47,3 +47,48 @@ It can be proven that 4788 is the highest score one can obtain.
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= k &lt;= min(n * (n + 1) / 2, 10<sup>9</sup>)</code></li>
 </ul>
+
+# Solution
+
+### Step 1: Compute Prime Scores
+- For each number in `nums`, calculate the number of distinct prime factors.
+- Iterate through each number and divide it by prime factors to count them.
+
+### Step 2: Find Left and Right Boundaries
+- We use a monotonic stack to determine, for each element, how far left and right we can extend the subarray before encountering an element with a higher prime score.
+
+### Step 3: Prioritize Higher Values
+- Use a max heap (priority queue) to prioritize elements with higher values.
+- The elements are processed in descending order to maximize multiplication at each step.
+
+### Step 4: Compute Contributions
+- Each element can contribute to multiple subarrays, and the number of subarrays it contributes to is determined by its left and right boundaries.
+- Multiply the result by the chosen element's value the required number of times, reducing `k` accordingly.
+
+### Step 5: Modular Exponentiation
+- Since values can be large, use modular exponentiation to handle repeated multiplications efficiently.
+
+## Complexity Analysis
+- **Prime factorization:** `O(n log m)` where `m` is the maximum value in `nums`.
+- **Monotonic stack operations:** `O(n)`.
+- **Heap operations:** `O(n log n)`.
+- **Total Complexity:** `O(n log n)`, which is efficient for `n` up to `10^5`.
+
+## Example Walkthrough
+### Example 1
+#### Input
+```cpp
+nums = [8, 3, 9, 3, 8], k = 2
+```
+#### Steps
+1. Compute prime scores: `[1, 1, 1, 1, 1]` (since all numbers have at most one distinct prime factor)
+2. Determine boundaries for each element.
+3. Select highest contributing elements in priority order.
+4. Multiply score accordingly.
+
+#### Output
+```cpp
+81
+```
+
+
