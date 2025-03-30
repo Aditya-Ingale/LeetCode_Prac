@@ -30,3 +30,32 @@ A partition like &quot;ababcbacadefegde&quot;, &quot;hijhklij&quot; is incorrect
 	<li><code>1 &lt;= s.length &lt;= 500</code></li>
 	<li><code>s</code> consists of lowercase English letters.</li>
 </ul>
+
+# Solution
+
+## Approach 
+We solve this problem using a **greedy algorithm** with two steps:
+
+### Step 1: Find the last occurrence of each character
+We first scan through the string and store the **last index** where each character appears in an array `lastIndex[26]`. This helps us determine how far a character extends in the string.
+
+### Step 2: Create partitions
+We iterate through the string again, maintaining a variable `end` that keeps track of the **farthest last index** encountered. When we reach `end`, we create a partition because all characters seen so far belong in this partition.
+
+## Explanation with Example
+Let's take `s = "ababcbacadefegdehijhklij"`:
+1. **Find last occurrences:**
+   - `a` last appears at index `8`
+   - `b` last appears at index `5`
+   - `c` last appears at index `7`
+   - `d` last appears at index `14`
+   - ... (similarly for other letters)
+
+2. **Partitioning the string:**
+   - Start from index `0`, update `end` based on the farthest last occurrence of any character seen so far.
+   - When `i == end`, a partition is formed.
+   - Repeat until the string is fully partitioned.
+
+## Time and Space Complexity
+- **Time Complexity:** `O(N)`, since we scan the string twice.
+- **Space Complexity:** `O(1)`, since we only store the last occurrences for 26 lowercase letters.
