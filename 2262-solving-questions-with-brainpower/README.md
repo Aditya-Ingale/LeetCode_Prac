@@ -48,3 +48,44 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 	<li><code>questions[i].length == 2</code></li>
 	<li><code>1 &lt;= points<sub>i</sub>, brainpower<sub>i</sub> &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+# Solution
+
+# Most Points from Questions
+
+## Approach
+
+### 1. Understanding the Choices
+At each question `i`, you have two options:
+- **Solve it**: Earn points and move to the next valid question after skipping `brainpower[i]` questions.
+- **Skip it**: Move to the next question without earning any points.
+
+### 2. Using Dynamic Programming (DP)
+We use a DP array `dp` where `dp[i]` represents the **maximum points you can earn starting from question `i`**.
+
+### 3. Solving from the End
+- We start from the last question and move backward to question `0`.
+- If we solve question `i`, we add its points and jump to the next valid question.
+- If we skip question `i`, we just take the maximum points from the next question.
+- We store the maximum of both choices in `dp[i]`.
+
+### 4. Time Complexity
+- We go through the list once, making it **O(n) time complexity**.
+- We use an extra `dp` array, making it **O(n) space complexity**.
+
+## Example Walkthrough
+### Input
+```
+questions = [[3,2],[4,3],[4,4],[2,5]]
+```
+### Steps
+1. Solve question 0 → Earn 3 points, skip next 2 questions
+2. Solve question 3 → Earn 2 points
+3. Total = `3 + 2 = 5`
+
+### Output
+```
+5
+```
+
+
