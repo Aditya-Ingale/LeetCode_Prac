@@ -38,3 +38,75 @@ It can be shown that there are no ordered triplets of indices with a value great
 	<li><code>3 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+# Solution
+
+# Maximum Triplet Value
+
+## Problem Statement
+Given a **0-indexed integer array** `nums`, find the maximum value among all **triplets** `(i, j, k)` such that:
+
+- `i < j < k`
+- The value is computed as:
+  
+  ```
+  (nums[i] - nums[j]) * nums[k]
+  ```
+  
+- If all such values are negative, return `0`.
+
+## Approach
+
+### **Optimized Approach: O(n) Time Complexity**
+To efficiently find the maximum triplet value, we follow these steps:
+
+1. **Track `maxLeft`** → This keeps track of the largest value `nums[i]` seen so far (leftmost element).
+2. **Precompute `maxRight[k]`** → This stores the maximum value of `nums[k]` for all `k > j` (rightmost element).
+3. **Iterate through `j` as the middle element**:
+   - If `nums[i] > nums[j]` and `nums[k] > 0`, compute `(nums[i] - nums[j]) * nums[k]` and update `maxVal`.
+
+### **Step-by-Step Explanation**
+
+1. **Precompute `maxRight[k]`**:
+   - We traverse `nums` in **reverse order** to store the largest value to the right of each index.
+
+2. **Iterate through the array with `j` as the middle index**:
+   - Track the maximum `nums[i]` value before `j` (`maxLeft`).
+   - Use the precomputed `maxRight[j+1]` to get the best possible `nums[k]` value.
+   - Compute and update the maximum triplet value if the conditions are met.
+   - Update `maxLeft` after checking each `j`.
+
+## **Example Walkthrough**
+
+### Example 1:
+**Input:** `[12,6,1,2,7]`
+
+| Index | `nums`  | `maxLeft` | `maxRight` |
+|--------|--------|-----------|------------|
+| 0      | 12     | 12        | 12         |
+| 1      | 6      | 12        | 7          |
+| 2      | 1      | 12        | 7          |
+| 3      | 2      | 12        | 7          |
+| 4      | 7      | 12        | 7          |
+
+- Best triplet: `(12 - 1) * 7 = 77`
+
+**Output:** `77`
+
+### Example 2:
+**Input:** `[1,10,3,4,19]`
+
+- Best triplet: `(10 - 3) * 19 = 133`
+
+**Output:** `133`
+
+### Example 3:
+**Input:** `[1,2,3]`
+
+- Only possible triplet is negative, so return `0`.
+
+**Output:** `0`
+
+---
+# Time Complexity 
+- O(n)
