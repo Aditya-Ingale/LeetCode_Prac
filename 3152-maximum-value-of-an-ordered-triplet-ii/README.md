@@ -38,3 +38,71 @@ It can be shown that there are no ordered triplets of indices with a value great
 	<li><code>3 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+# Solution
+
+## Optimized Approach (O(n) Solution)
+
+### **Key Observations**
+We need to maximize the expression:
+```
+(nums[i] - nums[j]) * nums[k]
+```
+where `i < j < k`.
+
+To achieve this efficiently, the algorithm maintains:
+1. **`highest`** → Maximum value seen so far (`nums[i]`).
+2. **`highest_diff`** → Maximum difference (`nums[i] - nums[j]`) seen so far.
+3. **`answer`** → Maximum triplet value found so far.
+
+### **Step-by-Step Execution**
+1. **Iterate through each element (`num`) in `nums`.**  
+   Since we traverse left to right, `num` represents `nums[k]` in some triplet.
+   
+2. **Compute the triplet value:**  
+   We check if we can get a better result using `highest_diff * num`, which represents:
+   ```
+   (nums[i] - nums[j]) * nums[k]
+   ```
+   Update `answer` if this new value is greater.
+
+3. **Update `highest_diff`:**  
+   - `highest_diff = max(highest_diff, highest - num);`  
+   - This keeps track of the best `(nums[i] - nums[j])` value.
+
+4. **Update `highest`:**  
+   - `highest = max(highest, num);`  
+   - This keeps track of the maximum `nums[i]` encountered so far.
+
+5. **After the loop ends, `answer` holds the maximum triplet value.**
+
+---
+
+### **Dry Run Example**
+#### **Input:**  
+```cpp
+nums = [12, 6, 1, 2, 7]
+```
+#### **Iteration-wise updates**
+| num  | `answer = max(answer, highest_diff * num)` | `highest_diff = max(highest_diff, highest - num)` | `highest = max(highest, num)` |
+|------|-------------------------------------------|-------------------------------------------|-----------------------------|
+| 12   | `0`                                       | `0`                                       | `12`                        |
+| 6    | `0`                                       | `12 - 6 = 6`                              | `12`                        |
+| 1    | `0`                                       | `max(6, 12 - 1) = 11`                     | `12`                        |
+| 2    | `max(0, 11 * 2) = 22`                     | `max(11, 12 - 2) = 11`                    | `12`                        |
+| 7    | `max(22, 11 * 7) = 77`                    | `max(11, 12 - 7) = 11`                    | `12`                        |
+
+#### **Final Answer:** `77`
+
+---
+
+### **Time Complexity Analysis**
+- **`O(n)`** → We iterate through `nums` only **once**, updating three variables.
+- **`O(1)` Space** → No extra memory is used, only three integer variables.
+
+---
+
+### **Why is this approach optimal?**
+✅ **No extra loops** (unlike brute force `O(n³)`).  
+✅ **No need to store prefix/suffix arrays** (like `O(n)` approaches).  
+✅ **Maintains only the necessary information dynamically**.
