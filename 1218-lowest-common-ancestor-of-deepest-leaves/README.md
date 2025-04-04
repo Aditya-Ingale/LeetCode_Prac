@@ -45,3 +45,35 @@ Note that nodes 6, 0, and 8 are also leaf nodes, but the depth of them is 2, but
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as 865: <a href="https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/" target="_blank">https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/</a></p>
+
+# Solution
+
+## Approach: DFS + Post-order Traversal
+
+We use **Depth-First Search (DFS)** to solve this problem recursively.
+
+### Steps:
+
+1. **Post-order Traversal**: 
+   - First we visit left and right children, and then process the current node.
+   
+2. For each node, we check:
+   - The **depth of the left subtree**.
+   - The **depth of the right subtree**.
+
+3. Then we compare depths:
+   - If `leftDepth > rightDepth`: the LCA must be in the **left** subtree.
+   - If `rightDepth > leftDepth`: the LCA must be in the **right** subtree.
+   - If both are equal: current node is the **common ancestor**.
+
+4. We return:
+   - A `pair`: `{node, depth}` — where `node` is the LCA of the deepest leaves in that subtree, and `depth` is how deep the subtree is.
+
+---
+
+## 🧪 Time and Space Complexity
+
+- **Time Complexity:** `O(N)`, where N is the number of nodes.
+- **Space Complexity:** `O(H)` where H is the height of the tree (recursive stack).
+
+---
