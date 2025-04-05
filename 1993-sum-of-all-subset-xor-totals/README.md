@@ -56,3 +56,22 @@
 	<li><code>1 &lt;= nums.length &lt;= 12</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 20</code></li>
 </ul>
+
+# Solution
+
+## Approach
+
+We use **Depth-First Search (DFS)** to explore all subsets and calculate their XOR values.
+
+At each index in the array, we make two choices:
+1. **Include** the current number in the XOR calculation.
+2. **Exclude** the current number.
+
+This creates a binary tree of choices with `2^n` possible subsets (n = nums.size).
+
+### Why this is optimized?
+- This approach avoids explicitly storing subsets.
+- It uses tail recursion to explore XOR values directly, saving memory and processing time.
+- Time complexity is `O(2^n)` which is acceptable for `n <= 12`.
+
+---
