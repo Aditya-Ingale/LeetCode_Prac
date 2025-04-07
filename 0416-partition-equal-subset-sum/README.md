@@ -43,12 +43,12 @@
    - Initialize `dp[0] = true` (a subset sum of 0 is always possible with an empty set).
    - For every number in the array, update the `dp` array **in reverse** to avoid using the same number multiple times.
 
-### 🧠 Why Reverse Loop?
+### Why Reverse Loop?
 - When updating `dp[j] = dp[j] || dp[j - num]`, we go backwards to make sure we don’t reuse the same `num` multiple times in this iteration.
 
 ---
 
-## 🕒 Time and Space Complexity
+## Time and Space Complexity
 
 - **Time Complexity**: `O(n * sum/2)` where `n` is the number of elements.
 - **Space Complexity**: `O(sum/2)` due to the 1D `dp` array.
