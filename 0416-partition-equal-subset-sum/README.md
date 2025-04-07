@@ -24,3 +24,32 @@
 	<li><code>1 &lt;= nums.length &lt;= 200</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
+
+
+# Solution
+
+### 🔍 Step-by-step Breakdown:
+
+1. **Total Sum**: 
+   - First, calculate the total sum of the array.
+   - If the total sum is **odd**, it's impossible to divide it into two equal parts (you can't split an odd number evenly).
+
+2. **Target Sum**:
+   - If the total sum is even, we aim to find **a subset** whose sum is **half of the total sum** (i.e., `target = totalSum / 2`).
+   - If such a subset exists, the rest of the elements automatically form the second subset with the same sum.
+
+3. **Dynamic Programming (1D)**:
+   - Use a `dp` array where `dp[i]` represents whether a subset with sum `i` is possible.
+   - Initialize `dp[0] = true` (a subset sum of 0 is always possible with an empty set).
+   - For every number in the array, update the `dp` array **in reverse** to avoid using the same number multiple times.
+
+### 🧠 Why Reverse Loop?
+- When updating `dp[j] = dp[j] || dp[j - num]`, we go backwards to make sure we don’t reuse the same `num` multiple times in this iteration.
+
+---
+
+## 🕒 Time and Space Complexity
+
+- **Time Complexity**: `O(n * sum/2)` where `n` is the number of elements.
+- **Space Complexity**: `O(sum/2)` due to the 1D `dp` array.
+
