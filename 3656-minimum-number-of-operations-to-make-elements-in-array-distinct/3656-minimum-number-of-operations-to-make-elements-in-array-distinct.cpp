@@ -1,23 +1,20 @@
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
-        unordered_set<int> seen;
-        int n = nums.size();
+        bool e[101] = {0};  
 
-        // Start from the back of the array
-        for (int i = n - 1; i >= 0; --i) {
-            // If already seen, we must remove more from front
-            if (seen.count(nums[i])) {
-                // Number of elements before this index (i+1)
-                int remaining = i + 1;
+        int size = nums.size();
 
-                // Number of groups of 3 we need to remove from the start
-                return (remaining + 2) / 3;
-            }
-            seen.insert(nums[i]);
+        // Traverse the array from the end to the beginning
+        for (int i = size - 1; i >= 0; --i) {
+            // If the current number was already seen, it's a duplicate
+            if (e[nums[i]])
+                return (i + 3) / 3;
+            // Mark the current number as seen
+            e[nums[i]] = true;
         }
 
-        // If all elements are unique already
+        // If we finish the loop without finding duplicates, all elements are unique
         return 0;
     }
 };
