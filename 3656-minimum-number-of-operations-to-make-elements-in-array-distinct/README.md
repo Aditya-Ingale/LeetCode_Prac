@@ -60,3 +60,20 @@
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
+
+# Solution
+
+## Approach
+
+1. We scan the array **from the back (end)** to the front.
+2. We keep track of elements we've already seen using a **boolean array** `e[101]`.
+   - Why 101? Because the values are between 1 and 100 (inclusive).
+3. As soon as we find a number that we've seen before → this means there's a **duplicate** in the remaining suffix of the array.
+4. At that point, we need to remove all elements **before and including** that duplicate to make the remaining array unique.
+5. We calculate the **number of operations** needed to remove that prefix:
+
+## Time and Space Complexity 
+1. Time Complexity: O(n) — we scan the array once from back to front.
+2. Space Complexity: O(1) — we use a fixed-size boolean array.
+
+
