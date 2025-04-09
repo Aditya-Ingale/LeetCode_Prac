@@ -1,15 +1,19 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
-        set<int> distinct_greater;
-        for (int num : nums) {
-            if (num > k) {
-                distinct_greater.insert(num);
-            } else if (num < k) {
-                return -1; // Impossible if any element is strictly less than k
-            }
+        unordered_map<int, int> mp;
+        int minVal = INT_MAX;
+
+        for (auto n : nums) {
+            mp[n] = 1;                      // Storing unique values as keys
+            minVal = min(minVal, n);        // Track minimum value
         }
 
-        return distinct_greater.size();
+        if (minVal < k) return -1;          // Can't increase smaller values to k
+
+        int ans = mp.size();                // Total unique values
+        if (mp[k]) ans--;                   // Don't need operation on 'k'
+
+        return ans;
     }
 };
