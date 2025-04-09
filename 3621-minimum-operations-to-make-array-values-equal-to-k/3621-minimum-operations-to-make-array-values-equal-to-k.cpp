@@ -1,18 +1,15 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
-        // If any number in nums is less than k, impossible
-        for (int num : nums) {
-            if (num < k) return -1;
-        }
-
-        set<int> greaterValues;  // store unique values greater than k
+        set<int> distinct_greater;
         for (int num : nums) {
             if (num > k) {
-                greaterValues.insert(num);
+                distinct_greater.insert(num);
+            } else if (num < k) {
+                return -1; // Impossible if any element is strictly less than k
             }
         }
 
-        return greaterValues.size(); // each unique value needs one operation
+        return distinct_greater.size();
     }
 };
