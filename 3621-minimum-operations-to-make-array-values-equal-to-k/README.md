@@ -58,3 +58,11 @@
 	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 	<li><code>1 &lt;= k &lt;= 100</code></li>
 </ul>
+
+# Solution Explanation
+
+1. Create a map to store **unique values** from the array.
+2. Keep track of the **minimum value** in the array.
+3. If the minimum value is **less than `k`**, return `-1` (since we can't increase it).
+4. Count how many **unique values** are in the map.
+5. If `k` exists in the map, subtract one from the count — we don’t need to change `k`.
