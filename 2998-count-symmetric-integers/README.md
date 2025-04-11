@@ -27,3 +27,47 @@
 <ul>
 	<li><code>1 &lt;= low &lt;= high &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+# Solution
+
+## Approach: Digit-by-Digit Check (Efficient)
+
+This approach only checks **2-digit and 4-digit numbers** (because only they can be symmetric within the range `1` to `9999`, which is `10^4`).
+
+---
+
+### 🔍 Step-by-Step Logic
+
+1. **Loop through each number** from `low` to `high`.
+
+2. For each number:
+
+   #### 👉 If it’s a 2-digit number (`10` to `99`):
+
+   - Extract the first digit and second digit using math:
+     ```cpp
+     int d1 = i / 10;   // First digit
+     int d2 = i % 10;   // Second digit
+     ```
+
+   - If both digits are the same → it's symmetric (e.g., `33`, `44`).
+
+   #### 👉 If it’s a 4-digit number (`1000` to `9999`):
+
+   - Extract each digit using division and modulo:
+     ```cpp
+     int d1 = i / 1000;        // Thousands place
+     int d2 = (i / 100) % 10;  // Hundreds place
+     int d3 = (i / 10) % 10;   // Tens place
+     int d4 = i % 10;          // Units place
+     ```
+
+   - Check if the **sum of the first two digits equals the sum of the last two digits**:
+     ```cpp
+     if (d1 + d2 == d3 + d4)
+     ```
+     - If yes, the number is symmetric (e.g., `1212`, `1230`).
+
+3. **Increment the count** for each symmetric number found.
+
+4. **Return the total count** at the end.
