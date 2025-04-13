@@ -37,3 +37,29 @@
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>15</sup></code></li>
 </ul>
+
+---
+
+# Solution
+
+## Approach
+
+### Step-by-step Explanation:
+
+1. **Understanding positions**:
+   - Even-indexed positions (like 0, 2, 4, ...) must have even digits: 5 choices → `{0, 2, 4, 6, 8}`
+   - Odd-indexed positions (like 1, 3, 5, ...) must have prime digits: 4 choices → `{2, 3, 5, 7}`
+
+2. **Count of each position type**:
+   - Total even positions = `(n + 1) / 2`
+   - Total odd positions = `n / 2`
+
+3. **Total combinations**:
+   - For each even index: 5 choices → So `5 ^ (evenCount)`
+   - For each odd index: 4 choices → So `4 ^ (oddCount)`
+   - Multiply both and return modulo `10^9 + 7`
+
+4. **Why use fast exponentiation?**
+   - Because `n` can be large (like 10^15), we use a method called **modular exponentiation** to compute powers efficiently in `O(log n)` time.
+
+---
