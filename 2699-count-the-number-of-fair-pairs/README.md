@@ -46,6 +46,6 @@
 2. For each element `nums[i]`, the goal is to determine the count of elements `nums[j]` (where `j > i`) such that their sum falls within the specified range [lower, upper].
 3. This condition can be rearranged to:
 
-\text{lower} - \text{nums}[i] \leq \text{nums}[j] \leq \text{upper} - \text{nums}[i]
+lower - nums[i] <= nums[j] <= upper - nums[i]
 
 4. To efficiently find the number of such `j`'s, we can leverage the `lower_bound` and `upper_bound` functions (commonly found in standard template libraries like C++ STL). These functions perform binary search on the sorted portion of the array (elements with index greater than `i`) to locate the first element not less than `lower - nums[i]` and the first element greater than `upper - nums[i]`, respectively. The difference between the indices returned by `upper_bound` and `lower_bound` gives the count of elements `nums[j]` that satisfy the condition.
