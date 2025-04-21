@@ -31,6 +31,11 @@ This repository serves as:
 - Write clean, optimized, and well-documented code.
 - Become confident with core DSA concepts using C++.
 
+## 📊 My LeetCode Stats
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/Aditya_Ingale?ext=contest&theme=dark)
+![LeetCode Badge](https://leetcode-badge-showcase.vercel.app/api?username=Aditya_Ingale&theme=dark&border=border&animated=true)
+
 ## 🤝 Contributions
 
 While this is a personal project, if you find any issues or have suggestions, feel free to open an issue or pull request. I appreciate constructive feedback!
