@@ -57,3 +57,45 @@ Thus, we return 4.
 	<li><code>-10<sup>5</sup> &lt;= differences[i] &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>5</sup> &lt;= lower &lt;= upper &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+# Solution 
+
+## Approach
+
+We must ensure that **every value** in this sequence is between `lower` and `upper`.
+
+---
+
+## ✅ Steps to Solve
+
+1. **Track Prefix Sums**:
+   - As we go through `differences`, keep track of the **minimum** and **maximum** values of the prefix sum.
+   - These represent the **lowest** and **highest** deviations from the starting value `h0`.
+
+2. **Determine Valid Range for h0**:
+   - Since each value must be in the range `[lower, upper]`, we must ensure:
+     ```
+     lower ≤ h0 + min_prefix
+     upper ≥ h0 + max_prefix
+     ```
+   - Rearranging:
+     ```
+     h0 ≥ lower - min_prefix
+     h0 ≤ upper - max_prefix
+     ```
+
+3. **Count Valid Starting Points**:
+   - The number of valid starting values for `h0` is:
+     ```
+     max(0, (upper - max_prefix) - (lower - min_prefix) + 1)
+     ```
+
+---
+
+## 🔍 Example
+
+### Input:
+```cpp
+differences = [1, -3, 4]
+lower = 1
+upper = 6
