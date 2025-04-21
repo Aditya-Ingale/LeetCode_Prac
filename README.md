@@ -39,3 +39,19 @@ While this is a personal project, if you find any issues or have suggestions, fe
 
 Thanks for visiting this repository. If you're also on a learning journey, let’s connect and grow together!
 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0013-roman-to-integer) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0013-roman-to-integer) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0013-roman-to-integer) |
+<!---LeetCode Topics End-->
