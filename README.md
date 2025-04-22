@@ -43,3 +43,23 @@ While this is a personal project, if you find any issues or have suggestions, fe
 ---
 
 Thanks for visiting this repository. If you're also on a learning journey, let’s connect and grow together!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Combinatorics
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Number Theory
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2415-count-the-number-of-ideal-arrays) |
+<!---LeetCode Topics End-->
