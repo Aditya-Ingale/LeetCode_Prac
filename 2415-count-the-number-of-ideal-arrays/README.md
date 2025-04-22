@@ -46,3 +46,80 @@ There are a total of 9 + 1 + 1 = 11 distinct ideal arrays.
 	<li><code>2 &lt;= n &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= maxValue &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+# Solution
+
+### Input:
+- n = 2, maxValue = 5
+
+### Output:
+- 10
+
+
+### Explanation:
+We list all ideal arrays of length 2:
+- Starting with 1: [1,1], [1,2], [1,3], [1,4], [1,5]
+- Starting with 2: [2,2], [2,4]
+- Starting with 3: [3,3]
+- Starting with 4: [4,4]
+- Starting with 5: [5,5]
+
+Total = **10**
+
+---
+
+## 🧠 Key Idea
+
+An ideal array must follow the pattern:
+- arr[i] % arr[i-1] == 0
+
+That means the current element is a multiple of the previous one.
+
+For example:
+- `[1, 2, 4, 4]` is valid
+- `[2, 3]` is invalid because 3 is not divisible by 2
+
+---
+
+## Optimized Approach 
+
+We use:
+1. **Dynamic Programming (DP)** to count all valid multiplication-based sequences for values up to `maxValue`.
+2. **Combinatorics** (nCr = combinations) to calculate how many ways we can place values in an array of length `n`.
+
+### Steps:
+1. For every number from `1` to `maxValue`, build all sequences where each element is divisible by the previous one.
+2. Track how many sequences of each length exist.
+3. For every sequence of length `k`, the number of ways to place it in an array of size `n` is:
+C(n-1, k-1)
+
+This is because we can fix one number and choose `k-1` positions out of `n-1` remaining places.
+
+---
+
+## Combinatorics Optimization
+
+Instead of building a huge combination table (which causes runtime error), we:
+- Precompute factorials and modular inverses.
+- Use this to compute `C(n, r)` efficiently in constant time using:
+C(n, r) = fact[n] / (fact[r] * fact[n - r])
+
+
+---
+
+## 🔧 OOP Design
+
+We split the logic into two clean classes:
+- `Combinatorics`: handles factorials and combination calculations
+- `IdealArrayCounter`: handles the dynamic programming and final counting
+
+This makes the code easier to test, extend, and reuse.
+
+---
+
+## 🕒 Time & Space Complexity
+
+- **Time Complexity:** `O(maxValue * log(maxValue) * log(maxValue))` (very efficient for n, maxValue ≤ 10⁴)
+- **Space Complexity:** `O(maxValue * log(maxValue))` for the DP table
+
+---
