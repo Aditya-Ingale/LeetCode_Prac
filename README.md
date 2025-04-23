@@ -49,6 +49,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Math
 |  |
 | ------- |
+| [1500-count-largest-group](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1500-count-largest-group) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Dynamic Programming
 |  |
@@ -62,4 +63,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Hash Table
+|  |
+| ------- |
+| [1500-count-largest-group](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1500-count-largest-group) |
 <!---LeetCode Topics End-->
