@@ -37,9 +37,9 @@
 
 # Solution
 
-## 🧠 Optimized Approach (Two Pointers + Hash Map)
+## Optimized Approach (Two Pointers + Hash Map)
 
-### ✅ Step-by-Step:
+### Step-by-Step:
 
 #### 1. Find Total Unique Elements
 - Use a `set` to find how many unique elements exist in the original array.
