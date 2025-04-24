@@ -34,3 +34,26 @@
 	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 2000</code></li>
 </ul>
+
+# Solution
+
+## 🧠 Optimized Approach (Two Pointers + Hash Map)
+
+### ✅ Step-by-Step:
+
+#### 1. Find Total Unique Elements
+- Use a `set` to find how many unique elements exist in the original array.
+- Let's call this number `totalDistinct`.
+
+#### 2. Sub-problem: Count subarrays with at most K distinct elements
+- We use a **sliding window (two pointers)** approach with a **hash map** to keep track of the frequency of each number in the current window.
+
+#### 3. Key Trick:
+- To count subarrays that have **exactly `K` distinct elements**, use the formula:
+- exactlyK = atMostK(K) - atMostK(K - 1)
+- This subtracts the number of subarrays with up to `K - 1` distinct elements from the number with up to `K`.
+
+#### 4. Return the result:
+- Use the above formula with `K = totalDistinct` to get the number of **complete subarrays**.
+- countCompleteSubarrays = atMostK(totalDistinct) - atMostK(totalDistinct - 1)
+ 
