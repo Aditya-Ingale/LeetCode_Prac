@@ -78,11 +78,11 @@ It can be shown that there are no other interesting subarrays. So, the answer is
 #### This allows us to count all valid subarrays in O(n) time!
 
 ### Example
+
 - nums = [3, 2, 4], modulo = 2, k = 1
 - Valid subarrays:
-
--- [3] → 1 element where nums[i] % 2 == 1 → count = 1 → 1 % 2 == 1 ✅
--- [3, 2] → same count ✅
--- [3, 2, 4] → same count ✅
---- ✅ Total: 3 interesting subarrays
+- [3] → 1 element where nums[i] % 2 == 1 → count = 1 → 1 % 2 == 1 ✅
+- [3, 2] → same count ✅
+- [3, 2, 4] → same count ✅
+- ✅ Total: 3 interesting subarrays
 
