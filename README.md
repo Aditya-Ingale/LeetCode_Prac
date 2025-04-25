@@ -68,12 +68,18 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [1500-count-largest-group](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1500-count-largest-group) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2915-count-of-interesting-subarrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2915-count-of-interesting-subarrays) |
 ## Array
 |  |
 | ------- |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2915-count-of-interesting-subarrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2915-count-of-interesting-subarrays) |
 ## Sliding Window
 |  |
 | ------- |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2856-count-complete-subarrays-in-an-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [2915-count-of-interesting-subarrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2915-count-of-interesting-subarrays) |
 <!---LeetCode Topics End-->
