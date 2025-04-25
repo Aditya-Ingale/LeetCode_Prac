@@ -53,3 +53,36 @@ It can be shown that there are no other interesting subarrays. So, the answer is
 	<li><code>1 &lt;= modulo &lt;= 10<sup>9</sup></code></li>
 	<li><code>0 &lt;= k &lt; modulo</code></li>
 </ul>
+
+# Solution
+
+## Efficient Approach
+- We use a prefix counter and a hash map:
+
+### Step-by-step:
+1. Initialize a counter prefixMod = 0 that keeps track of how many nums[i] % modulo == k values we’ve seen so far (modulo modulo).
+
+2. For each element in nums:
+- If nums[i] % modulo == k, we increase the counter.
+- Take prefixMod % modulo to normalize it.
+
+3. We now want to find how many earlier subarrays had a prefixMod such that:
+-- (currentPrefixMod - previousPrefixMod) % modulo == k
+- Rearranged to:
+-- previousPrefixMod ≡ (currentPrefixMod - k + modulo) % modulo
+
+4. Use a hash map to count how many times each prefixMod value has appeared.
+
+5. Add the count of matching previous prefixMod values to the result.
+
+#### This allows us to count all valid subarrays in O(n) time!
+
+### Example
+- nums = [3, 2, 4], modulo = 2, k = 1
+- Valid subarrays:
+
+-- [3] → 1 element where nums[i] % 2 == 1 → count = 1 → 1 % 2 == 1 ✅
+-- [3, 2] → same count ✅
+-- [3, 2, 4] → same count ✅
+--- ✅ Total: 3 interesting subarrays
+
