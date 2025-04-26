@@ -35,3 +35,16 @@
 	<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i], minK, maxK &lt;= 10<sup>6</sup></code></li>
 </ul>
+
+# Solution
+
+## Explanation:
+
+- leftBound tracks the last index where the value was invalid (out of [minK, maxK] range).
+
+- minPos and maxPos track the most recent positions where minK and maxK were found.
+
+- For each index, the number of valid subarrays ending at that index is max(0, min(minPos, maxPos) - leftBound).
+
+- We accumulate this in ans.
+
