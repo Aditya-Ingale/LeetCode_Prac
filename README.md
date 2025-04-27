@@ -43,3 +43,11 @@ While this is a personal project, if you find any issues or have suggestions, fe
 ---
 
 Thanks for visiting this repository. If you're also on a learning journey, let’s connect and grow together!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+<!---LeetCode Topics End-->
