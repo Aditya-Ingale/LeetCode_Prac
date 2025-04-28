@@ -43,3 +43,10 @@ Thus, there are 5 subarrays having scores less than 5.
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= k &lt;= 10<sup>15</sup></code></li>
 </ul>
+
+# Solution
+
+## Quick Explanation
+- sum is the sum of the current window.
+- While the score is invalid (≥ k), shrink the window from the left.
+- For each end, after adjustments, we add (end - start + 1) valid subarrays to the answer.
