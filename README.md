@@ -34,7 +34,7 @@ This repository serves as:
 ## 📊 My LeetCode Stats
 
 - ![LeetCode Stats](https://leetcard.jacoblin.cool/Aditya_Ingale?ext=contest&theme=dark)
-- ![LeetCode Badge](https://leetcode-badge-showcase.vercel.app/api?username=Aditya_Ingale&theme=black&border=border&animated=true)
+- ![LeetCode Badge](https://leetcode-badge-showcase.vercel.app/api?username=Aditya_Ingale&theme=dark&border=border&animated=true)
 
 ## 🤝 Contributions
 
@@ -43,31 +43,3 @@ While this is a personal project, if you find any issues or have suggestions, fe
 ---
 
 Thanks for visiting this repository. If you're also on a learning journey, let’s connect and grow together!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [1421-find-numbers-with-even-number-of-digits](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1421-find-numbers-with-even-number-of-digits) |
-| [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2394-count-subarrays-with-score-less-than-k) |
-| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
-| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
-## Binary Search
-|  |
-| ------- |
-| [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2394-count-subarrays-with-score-less-than-k) |
-## Sliding Window
-|  |
-| ------- |
-| [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2394-count-subarrays-with-score-less-than-k) |
-| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
-## Prefix Sum
-|  |
-| ------- |
-| [2394-count-subarrays-with-score-less-than-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2394-count-subarrays-with-score-less-than-k) |
-## Math
-|  |
-| ------- |
-| [1421-find-numbers-with-even-number-of-digits](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1421-find-numbers-with-even-number-of-digits) |
-<!---LeetCode Topics End-->
