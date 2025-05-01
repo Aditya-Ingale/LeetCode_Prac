@@ -52,3 +52,12 @@ The last pill is not given because it will not make any worker strong enough for
 	<li><code>0 &lt;= pills &lt;= m</code></li>
 	<li><code>0 &lt;= tasks[i], workers[j], strength &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+
+# Solution
+
+## Explanation:
+- Binary Search: We find the maximum k such that k tasks can be assigned.
+- canAssign(): For a given k, we check if it's possible by trying to assign the k most difficult tasks to the k strongest workers.
+- Greedy Matching: Start from the hardest task, assign the strongest worker without pill, or with pill if needed.
+- Time Complexity: O(n log n + m log m + log(min(n, m)) * k log k) — acceptable for input size up to 5 * 10^4.
