@@ -43,3 +43,31 @@ While this is a personal project, if you find any issues or have suggestions, fe
 ---
 
 Thanks for visiting this repository. If you're also on a learning journey, let’s connect and grow together!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Binary Search
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Greedy
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Sorting
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+<!---LeetCode Topics End-->
