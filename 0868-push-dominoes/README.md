@@ -40,3 +40,19 @@
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>dominoes[i]</code> is either <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, or <code>&#39;.&#39;</code>.</li>
 </ul>
+
+# Solution
+
+## Explanation
+- The algorithm scans for segments of . between two non-. dominoes.
+- Based on the characters surrounding the segment:
+ - R...R or L...L: Fill all with the same direction.
+ - R...L: Fill inward with opposing forces.
+ - L...R: No change (forces cancel or don’t interact).
+- Handles edge dominoes by assuming:
+ - Start of string: left wall is 'L'
+ - End of string: right wall is 'R'
+
+## Time and Space Complexity
+- Time Complexity: O(n)
+- Space Complexity: O(n) (only due to result string, no extra arrays)
