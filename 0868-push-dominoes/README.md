@@ -43,16 +43,25 @@
 
 # Solution
 
-## Explanation
-- The algorithm scans for segments of . between two non-. dominoes.
-- Based on the characters surrounding the segment:
- - R...R or L...L: Fill all with the same direction.
- - R...L: Fill inward with opposing forces.
- - L...R: No change (forces cancel or don’t interact).
-- Handles edge dominoes by assuming:
- - Start of string: left wall is 'L'
- - End of string: right wall is 'R'
+## Algorithm Overview
 
-## Time and Space Complexity
-- Time Complexity: O(n)
-- Space Complexity: O(n) (only due to result string, no extra arrays)
+The algorithm scans for segments of `.` between two non-`.` dominoes.
+
+Based on the characters surrounding the segment:
+
+- `R...R` or `L...L`:  
+  → Fill all dominoes in the segment with the same direction (`R` or `L`).
+
+- `R...L`:  
+  → Fill inward:
+  - Left half becomes `R`
+  - Right half becomes `L`
+  - If the segment length is odd, the center remains `.`
+
+- `L...R`:  
+  → No change. Dominoes remain standing due to canceling or non-interacting forces.
+
+### Edge Case Handling:
+
+- If the segment is at the **start** of the string, assume the domino before it (`left wall`) is `'L'`.
+- If the segment is at the **end** of the string, assume the domino after it (`right wall`) is `'R'`.
