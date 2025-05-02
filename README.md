@@ -34,7 +34,7 @@ This repository serves as:
 ## 📊 My LeetCode Stats
 
 - ![LeetCode Stats](https://leetcard.jacoblin.cool/Aditya_Ingale?ext=contest&theme=dark)
-- ![LeetCode Badge](https://leetcode-badge-showcase.vercel.app/api?username=Aditya_Ingale&theme=black&border=border&animated=true)
+- ![LeetCode Badge]()
 
 ## 🤝 Contributions
 
@@ -43,43 +43,3 @@ While this is a personal project, if you find any issues or have suggestions, fe
 ---
 
 Thanks for visiting this repository. If you're also on a learning journey, let’s connect and grow together!
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
-## Binary Search
-|  |
-| ------- |
-| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
-## Greedy
-|  |
-| ------- |
-| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
-## Queue
-|  |
-| ------- |
-| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
-## Sorting
-|  |
-| ------- |
-| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
-## Monotonic Queue
-|  |
-| ------- |
-| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
-## Two Pointers
-|  |
-| ------- |
-| [0868-push-dominoes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0868-push-dominoes) |
-## String
-|  |
-| ------- |
-| [0868-push-dominoes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0868-push-dominoes) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0868-push-dominoes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0868-push-dominoes) |
-<!---LeetCode Topics End-->
