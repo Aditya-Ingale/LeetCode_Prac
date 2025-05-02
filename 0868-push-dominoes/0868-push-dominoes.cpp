@@ -2,45 +2,35 @@ class Solution {
 public:
     string pushDominoes(string dominoes) {
         int n = dominoes.size();
-        vector<int> forces(n, 0);
+        string res = dominoes;
+        int left = 0;
 
-        // Left to right: apply positive force for 'R'
-        int force = 0;
-        for (int i = 0; i < n; ++i) {
-            if (dominoes[i] == 'R') {
-                force = n; // Max force
-            } else if (dominoes[i] == 'L') {
-                force = 0;
-            } else {
-                force = max(force - 1, 0);
+        while (left < n) {
+            // Find the next non-dot character
+            int right = left;
+            while (right < n && res[right] == '.') right++;
+
+            char leftChar = (left == 0) ? 'L' : res[left - 1];
+            char rightChar = (right == n) ? 'R' : res[right];
+
+            if (leftChar == rightChar) {
+                // Same direction, fill all with that
+                for (int k = left; k < right; ++k)
+                    res[k] = leftChar;
+            } else if (leftChar == 'R' && rightChar == 'L') {
+                // Opposite directions, fill inward
+                int l = left, r = right - 1;
+                while (l < r) {
+                    res[l++] = 'R';
+                    res[r--] = 'L';
+                }
+                // center remains '.' if l == r
             }
-            forces[i] += force;
+            // Else (L...R), do nothing
+
+            left = right + 1;
         }
 
-        // Right to left: apply negative force for 'L'
-        force = 0;
-        for (int i = n - 1; i >= 0; --i) {
-            if (dominoes[i] == 'L') {
-                force = n;
-            } else if (dominoes[i] == 'R') {
-                force = 0;
-            } else {
-                force = max(force - 1, 0);
-            }
-            forces[i] -= force;
-        }
-
-        // Final state based on net force
-        string result;
-        for (int f : forces) {
-            if (f > 0)
-                result += 'R';
-            else if (f < 0)
-                result += 'L';
-            else
-                result += '.';
-        }
-
-        return result;
+        return res;
     }
 };
