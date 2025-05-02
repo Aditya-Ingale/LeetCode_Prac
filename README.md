@@ -34,7 +34,7 @@ This repository serves as:
 ## 📊 My LeetCode Stats
 
 - ![LeetCode Stats](https://leetcard.jacoblin.cool/Aditya_Ingale?ext=contest&theme=dark)
-- ![LeetCode Badge]()
+- ![LeetCode Badge](https://leetcode-badge-showcase.vercel.app/api?username=Aditya_Ingale&theme=black&border=no-border&animated=true)
 
 ## 🤝 Contributions
 
