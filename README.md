@@ -63,4 +63,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0806-domino-and-tromino-tiling](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0806-domino-and-tromino-tiling) |
 <!---LeetCode Topics End-->
