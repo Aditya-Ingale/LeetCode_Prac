@@ -51,6 +51,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
 ## Greedy
 |  |
 | ------- |
@@ -67,4 +68,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0806-domino-and-tromino-tiling](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0806-domino-and-tromino-tiling) |
+## Simulation
+|  |
+| ------- |
+| [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
 <!---LeetCode Topics End-->
