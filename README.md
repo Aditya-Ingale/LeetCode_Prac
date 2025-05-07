@@ -52,6 +52,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Greedy
 |  |
 | ------- |
@@ -72,4 +73,20 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
+## Graph
+|  |
+| ------- |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+## Matrix
+|  |
+| ------- |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+## Shortest Path
+|  |
+| ------- |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 <!---LeetCode Topics End-->
