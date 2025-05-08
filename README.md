@@ -53,6 +53,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -77,16 +78,20 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Matrix
 |  |
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
 |  |
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 <!---LeetCode Topics End-->
