@@ -70,6 +70,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0806-domino-and-tromino-tiling](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0806-domino-and-tromino-tiling) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
 ## Simulation
 |  |
 | ------- |
@@ -94,4 +95,16 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+## Math
+|  |
+| ------- |
+| [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
+## String
+|  |
+| ------- |
+| [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
+## Combinatorics
+|  |
+| ------- |
+| [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
 <!---LeetCode Topics End-->
