@@ -2,28 +2,30 @@ class Solution {
 public:
     int lengthAfterTransformations(string s, int t) {
         const int MOD = 1e9 + 7;
-        vector<long long> count(26, 0);
-        
-        // Initialize count from string s
-        for (char c : s) {
-            count[c - 'a']++;
+        vector<vector<int>> dp(26, vector<int>(t + 1, 0));
+
+        // Base case: after 0 transformations, each char is itself
+        for (int c = 0; c < 26; ++c) {
+            dp[c][0] = 1;
         }
 
-        for (int i = 0; i < t; ++i) {
-            vector<long long> newCount(26, 0);
-            for (int j = 0; j < 25; ++j) {
-                newCount[j + 1] = (newCount[j + 1] + count[j]) % MOD;
+        // Fill DP table
+        for (int i = 1; i <= t; ++i) {
+            for (int c = 0; c < 26; ++c) {
+                if (c == 25) {
+                    dp[c][i] = (dp[0][i - 1] + dp[1][i - 1]) % MOD;
+                } else {
+                    dp[c][i] = dp[c + 1][i - 1];
+                }
             }
-            // 'z' becomes 'a' and 'b'
-            newCount[0] = (newCount[0] + count[25]) % MOD;
-            newCount[1] = (newCount[1] + count[25]) % MOD;
-            count = newCount;
         }
 
+        // Calculate final length
         long long result = 0;
-        for (int i = 0; i < 26; ++i) {
-            result = (result + count[i]) % MOD;
+        for (char ch : s) {
+            result = (result + dp[ch - 'a'][t]) % MOD;
         }
-        return result;
+
+        return (int)result;
     }
 };
