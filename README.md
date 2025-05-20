@@ -61,6 +61,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [3321-type-of-triangle](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3321-type-of-triangle) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3639-zero-array-transformation-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3639-zero-array-transformation-i) |
 ## Greedy
 |  |
 | ------- |
@@ -142,4 +143,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
+## Prefix Sum
+|  |
+| ------- |
+| [3639-zero-array-transformation-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3639-zero-array-transformation-i) |
 <!---LeetCode Topics End-->
