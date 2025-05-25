@@ -1,29 +1,33 @@
 class Solution {
 public:
     int longestPalindrome(vector<string>& words) {
-        unordered_map<string, int> wordCount;
-        int length = 0;
-        bool hasMiddle = false;
+        unordered_map<string, int> mp;
+        for (auto& word : words) {
+            mp[word]++;
+        }
 
-        for (const string& word : words) {
-            string reversed = string(word.rbegin(), word.rend());
-            if (wordCount[reversed] > 0) {
-                // Found a reverse pair, add 4 to length (2 chars each word)
-                length += 4;
-                wordCount[reversed]--;
-            } else {
-                wordCount[word]++;
+        int ans = 0;
+        bool flag = false;
+
+        for (auto& it : mp) {
+            string word = it.first;
+            int count = it.second;
+            string rev = word;
+            reverse(rev.begin(), rev.end());
+
+            if (word == rev) {
+                ans += (count / 2) * 4;
+                if (count % 2 == 1) flag = true;
+            } else if (mp.find(rev) != mp.end()) {
+                int pairs = min(count, mp[rev]);
+                ans += pairs * 4;
+                mp[rev] = 0; // Avoid double-counting
+                mp[word] = 0;
             }
         }
 
-        // Check for any word like "gg" which can be placed in the middle
-        for (auto& [word, count] : wordCount) {
-            if (word[0] == word[1] && count > 0) {
-                length += 2;
-                break;
-            }
-        }
+        if (flag) ans += 2; // One word like "gg" can be center
 
-        return length;
+        return ans;
     }
 };
