@@ -137,6 +137,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3201-distribute-candies-among-children-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3201-distribute-candies-among-children-ii) |
 | [3321-type-of-triangle](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3321-type-of-triangle) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
@@ -152,6 +153,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Combinatorics
 |  |
 | ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3201-distribute-candies-among-children-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
 ## Sorting
 |  |
@@ -165,6 +167,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
+| [3201-distribute-candies-among-children-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3201-distribute-candies-among-children-ii) |
 ## Two Pointers
 |  |
 | ------- |
