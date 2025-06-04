@@ -154,6 +154,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [3194-find-words-containing-character](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3194-find-words-containing-character) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Combinatorics
 |  |
 | ------- |
@@ -172,10 +173,12 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3201-distribute-candies-among-children-ii) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Two Pointers
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Prefix Sum
 |  |
 | ------- |
