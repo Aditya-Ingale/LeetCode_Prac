@@ -148,6 +148,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## String
 |  |
 | ------- |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -215,4 +216,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+## Union Find
+|  |
+| ------- |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
 <!---LeetCode Topics End-->
