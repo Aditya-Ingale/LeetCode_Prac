@@ -76,6 +76,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [0135-candy](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0135-candy) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -88,6 +89,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
 |  |
@@ -150,6 +152,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3194-find-words-containing-character) |
@@ -220,4 +223,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
+## Stack
+|  |
+| ------- |
+| [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 <!---LeetCode Topics End-->
