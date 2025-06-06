@@ -150,6 +150,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0014-longest-common-prefix) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -227,4 +228,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
