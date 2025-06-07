@@ -1,32 +1,32 @@
 class Solution {
 public:
     string clearStars(string s) {
-        vector<char> stack;
-        vector<int> freq(26, 0); // Frequency of characters in stack
+        vector<char> stk;
 
         for (char ch : s) {
             if (ch == '*') {
-                // Remove the leftmost smallest character
-                for (int i = 0; i < 26; ++i) {
-                    if (freq[i] > 0) {
-                        char smallest = 'a' + i;
-                        // Remove from stack (from right to left)
-                        for (int j = stack.size() - 1; j >= 0; --j) {
-                            if (stack[j] == smallest) {
-                                stack.erase(stack.begin() + j);
-                                freq[i]--;
-                                break;
-                            }
+                // Find index of smallest character from right to left
+                int minIndex = -1;
+                char minChar = 'z' + 1;
+
+                // Find the smallest character in the stack
+                for (int i = stk.size() - 1; i >= 0; --i) {
+                    if (stk[i] != '*') {
+                        if (stk[i] < minChar) {
+                            minChar = stk[i];
+                            minIndex = i;
                         }
-                        break; // Only remove one char for each '*'
                     }
                 }
+
+                if (minIndex != -1) {
+                    stk.erase(stk.begin() + minIndex);
+                }
             } else {
-                stack.push_back(ch);
-                freq[ch - 'a']++;
+                stk.push_back(ch);
             }
         }
 
-        return string(stack.begin(), stack.end());
+        return string(stk.begin(), stk.end());
     }
 };
