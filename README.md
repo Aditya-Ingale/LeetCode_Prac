@@ -80,6 +80,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3647-zero-array-transformation-iii) |
 ## Hash Table
 |  |
@@ -90,6 +91,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Counting
 |  |
@@ -124,6 +126,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3647-zero-array-transformation-iii) |
@@ -157,6 +160,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3194-find-words-containing-character) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
@@ -228,6 +232,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Trie
 |  |
 | ------- |
