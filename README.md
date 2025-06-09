@@ -239,4 +239,5 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0386-lexicographical-numbers) |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 <!---LeetCode Topics End-->
