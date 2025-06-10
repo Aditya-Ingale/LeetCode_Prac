@@ -93,6 +93,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Counting
 |  |
 | ------- |
@@ -100,6 +101,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -164,6 +166,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Combinatorics
 |  |
 | ------- |
