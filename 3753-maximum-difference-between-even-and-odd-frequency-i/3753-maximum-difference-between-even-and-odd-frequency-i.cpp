@@ -1,25 +1,20 @@
 class Solution {
 public:
     int maxDifference(string s) {
-        unordered_map<char, int> freq;
+        int odd = -1;
+        int even = INT_MAX;
+        vector<int> freq(26, 0);
+        
+        for (char c : s) freq[c - 'a']++;
 
-        // Count frequency of each character
-        for (char c : s) {
-            freq[c]++;
-        }
-
-        int maxOdd = INT_MIN;
-        int minEven = INT_MAX;
-
-        for (auto &[ch, count] : freq) {
-            if (count % 2 == 1) { // odd frequency
-                maxOdd = max(maxOdd, count);
-            } else { // even frequency
-                minEven = min(minEven, count);
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] % 2 == 1) {
+                odd = max(odd, freq[i]);
+            } else if (freq[i] > 0) {
+                even = min(even, freq[i]);
             }
         }
 
-        // Since constraints guarantee at least one odd and one even frequency
-        return maxOdd - minEven;
+        return odd - even;
     }
 };
