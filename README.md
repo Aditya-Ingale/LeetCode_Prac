@@ -167,6 +167,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [3637-count-number-of-balanced-permutations](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3637-count-number-of-balanced-permutations) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Combinatorics
 |  |
 | ------- |
@@ -186,6 +187,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3201-distribute-candies-among-children-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -196,6 +198,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [3639-zero-array-transformation-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3647-zero-array-transformation-iii) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -243,4 +246,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [0014-longest-common-prefix](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+## Sliding Window
+|  |
+| ------- |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 <!---LeetCode Topics End-->
