@@ -61,6 +61,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -81,6 +82,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -190,6 +192,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3321-type-of-triangle) |
