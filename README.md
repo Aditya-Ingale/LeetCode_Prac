@@ -132,6 +132,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 ## Graph
 |  |
 | ------- |
@@ -177,6 +178,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [0014-longest-common-prefix](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0014-longest-common-prefix) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
