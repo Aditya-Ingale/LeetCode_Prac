@@ -82,6 +82,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [0135-candy](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0135-candy) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -114,6 +115,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -180,6 +182,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0014-longest-common-prefix) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1058-lexicographically-smallest-equivalent-string) |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -215,6 +218,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Enumeration
 |  |
 | ------- |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3201-distribute-candies-among-children-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
@@ -287,4 +291,8 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+## Backtracking
+|  |
+| ------- |
+| [2140-longest-subsequence-repeated-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2140-longest-subsequence-repeated-k-times) |
 <!---LeetCode Topics End-->
