@@ -1,28 +1,30 @@
 class Solution {
 public:
     vector<int> maxSubsequence(vector<int>& nums, int k) {
-        // Step 1: Pair each number with its index to retain original order
-        vector<pair<int, int>> numWithIndex;
-        for (int i = 0; i < nums.size(); ++i) {
-            numWithIndex.push_back({nums[i], i});
+        int n = nums.size();
+        vector<pair<int, int>> valIndex;
+
+        // Step 1: Store value and original index
+        for (int i = 0; i < n; ++i) {
+            valIndex.push_back({nums[i], i});
         }
 
-        // Step 2: Use partial sort to get k largest by value
-        // Greater comparator sorts in descending order
-        partial_sort(numWithIndex.begin(), numWithIndex.begin() + k, numWithIndex.end(),
-                     [](const pair<int, int>& a, const pair<int, int>& b) {
-                         return a.first > b.first;  // Sort by value descending
-                     });
-
-        // Step 3: Take the top k elements and sort them by index to preserve order
-        vector<pair<int, int>> topK(numWithIndex.begin(), numWithIndex.begin() + k);
-        sort(topK.begin(), topK.end(), [](const pair<int, int>& a, const pair<int, int>& b) {
-            return a.second < b.second;  // Sort by original index
+        // Step 2: Sort by value in descending order
+        sort(valIndex.begin(), valIndex.end(), [](auto &a, auto &b) {
+            return a.first > b.first;
         });
 
-        // Step 4: Extract values
+        // Step 3: Take top k elements (value, index)
+        vector<pair<int, int>> topK(valIndex.begin(), valIndex.begin() + k);
+
+        // Step 4: Sort top k elements by original index
+        sort(topK.begin(), topK.end(), [](auto &a, auto &b) {
+            return a.second < b.second;
+        });
+
+        // Step 5: Build the result from sorted indices
         vector<int> result;
-        for (const auto& p : topK) {
+        for (auto &p : topK) {
             result.push_back(p.first);
         }
 
