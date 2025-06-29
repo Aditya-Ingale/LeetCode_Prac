@@ -57,6 +57,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1293-three-consecutive-odds) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2048-build-array-from-permutation](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2048-build-array-from-permutation) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -211,6 +212,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -231,6 +233,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Prefix Sum
@@ -294,6 +297,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Binary Search
 |  |
 | ------- |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Backtracking
 |  |
