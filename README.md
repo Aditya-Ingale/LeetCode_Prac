@@ -52,6 +52,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [0073-set-matrix-zeroes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
 | [0135-candy](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0135-candy) |
+| [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
 | [0945-snakes-and-ladders](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0945-snakes-and-ladders) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -102,6 +103,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0073-set-matrix-zeroes) |
+| [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -116,6 +118,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Counting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2140-longest-subsequence-repeated-k-times) |
@@ -212,6 +215,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
+| [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
@@ -293,6 +297,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Sliding Window
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Binary Search
 |  |
