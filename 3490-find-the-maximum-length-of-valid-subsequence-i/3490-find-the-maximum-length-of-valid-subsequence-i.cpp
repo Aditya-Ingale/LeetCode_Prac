@@ -1,18 +1,18 @@
 class Solution {
- public:
-  int maximumLength(vector<int>& nums) {
-    // dp[i][j] := the maximum length of a valid subsequence, where the last
-    // number mod 2 equal to i and the next desired number mod 2 equal to j
-    vector<vector<int>> dp(2, vector<int>(2));
+public:
+    int maximumLength(vector<int>& nums) {
+        int res = 0, n = nums.size();
 
-    // Extend the pattern xyxyxy...xy.
-    for (const int x : nums)
-      for (int y = 0; y < 2; ++y)
-        dp[x % 2][y] = dp[y][x % 2] + 1;
+        int odd = 0, even = 0, alternate = 1, prev = nums[0];
+        for(int i = 0; i < n; i++){
+            if(nums[i] % 2 == 1) odd++;
+            else even++;
 
-    return accumulate(dp.begin(), dp.end(), 0,
-                      [](int acc, const vector<int>& row) {
-      return max(acc, ranges::max(row));
-    });
-  }
+            if(i >= 1 && nums[i] % 2 != prev % 2){
+                alternate++;
+                prev = nums[i];
+            }
+        }
+        return max({odd, even, alternate});
+    }
 };
