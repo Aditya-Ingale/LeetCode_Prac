@@ -69,6 +69,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [2215-finding-3-digit-even-numbers](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
+| [2316-count-hills-and-valleys-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2479-meeting-rooms-iii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2479-meeting-rooms-iii) |
