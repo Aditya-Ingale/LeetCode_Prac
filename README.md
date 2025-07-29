@@ -74,6 +74,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2479-meeting-rooms-iii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2479-meeting-rooms-iii) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -282,6 +283,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Tree
@@ -335,12 +337,14 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Binary Search
 |  |
 | ------- |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Backtracking
 |  |
