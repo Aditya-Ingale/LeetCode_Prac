@@ -53,6 +53,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 | [0075-sort-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0075-sort-colors) |
 | [0135-candy](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0135-candy) |
 | [0594-longest-harmonious-subsequence](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0594-longest-harmonious-subsequence) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0945-snakes-and-ladders](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0945-snakes-and-ladders) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -149,6 +150,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 |  |
 | ------- |
 | [0806-domino-and-tromino-tiling](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0806-domino-and-tromino-tiling) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2061-painting-a-grid-with-three-different-colors) |
@@ -282,6 +284,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Bit Manipulation
 |  |
 | ------- |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0934-bitwise-ors-of-subarrays) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3307-find-the-maximum-sum-of-node-values) |
