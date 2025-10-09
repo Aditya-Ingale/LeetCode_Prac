@@ -203,6 +203,7 @@ Thanks for visiting this repository. If you're also on a learning journey, letâ€
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/0009-palindrome-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Aditya-Ingale/LeetCode_Prac/tree/master/3172-divisible-and-non-divisible-sums-difference) |
